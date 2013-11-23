@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectoandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.proyectoandroid.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.MenuAdministrador"
+            android:label="@string/title_activity_menu_administrador" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.NuevoUsuario"
+            android:label="@string/title_activity_nuevo_usuario" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.Administrador"
+            android:label="@string/title_activity_administrador" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.AddUsuario"
+            android:label="@string/title_activity_add_usuario" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.MenuAsistencia"
+            android:label="@string/title_activity_menu_asistencia" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.MenuAsistencias"
+            android:label="@string/title_activity_menu_asistencias" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.ControlAsistencia"
+            android:label="@string/title_activity_control_asistencia" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.ControlPersonal"
+            android:label="@string/title_activity_control_personal" >
+        </activity>
+        <activity
+            android:name="com.example.proyectoandroid.AddMiembro"
+            android:label="@string/title_activity_add_miembro" >
+        </activity>
+    </application>
+
+</manifest>
